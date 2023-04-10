@@ -6,11 +6,8 @@ import org.openqa.selenium.edge.EdgeDriver;
 
 public class Program05 {
 	
+    public static void main(String[] args) throws InterruptedException {
 
-
-	public static void main(String[] args) throws InterruptedException {
-
-	
 	WebDriver driver;
 	driver = new EdgeDriver();
 	driver.get("https://demo.automationtesting.in/Alerts.html");
